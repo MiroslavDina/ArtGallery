@@ -16,14 +16,16 @@ body {
   text-align: center;
   font-size: 4em;
   font-family: fantasy;
-  color: white;
+  color: red;
 }
 .centered {
+   position: relative;
+}
+p {
   position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-bottom: 100px; 
+  top: 600px;
+  left: 30%;
+  transform: translate(0%, -50%);
 }
 h1 {
 	font-family: fantasy;
@@ -41,4 +43,3 @@ img {
 img:hover {
 	transform: scale(1.1);
 }
-
