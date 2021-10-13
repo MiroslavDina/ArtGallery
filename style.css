@@ -24,18 +24,18 @@ section {
   text-align: center;
   padding: 1.5em 1em;
 }
-.section-5 .row {
+.section-1 .row {
   display: inline-flex;
     align-content: center;
     align-items: center;
 }
 
-.section-5 p{
+.section-1 p{
   color: black;
   display: inline;
 }
 
-.section-5 .figure img {
+.section-1 .figure img {
   position: relative;
   max-width: 100%;
   vertical-align: top;
@@ -96,18 +96,18 @@ section {
   transition: all 0.35s ease;
 }
 
-.section-6 {
+.section-2 {
   background: #1d1d1d;
   color: #efefef;
 }
 
-.section-6 .figure {
+.section-2 .figure {
   text-align: left;
   background: #1d1d1d;
   font-size: 16px;
 }
 
-.section-6 .figure img {
+.section-2 .figure img {
   position: relative;
   max-width: 100%;
   vertical-align: top;
@@ -115,7 +115,7 @@ section {
   object-fit: cover;
 }
 
-.section-6 figcaption {
+.section-2 figcaption {
   position: absolute;
   top: 0;
   right: 0;
@@ -126,40 +126,40 @@ section {
   padding: 20px 30px;
 }
 
-.section-6 .figure figcaption:before,
-.section-6 .figure figcaption:after {
+.section-2 .figure figcaption:before,
+.section-2 .figure figcaption:after {
   width: 1px;
   height: 0;
 }
 
-.section-6 .figure figcaption:before {
+.section-2 .figure figcaption:before {
   right: 0;
   top: 0;
 }
 
-.section-6 .figure figcaption:after {
+.section-2 .figure figcaption:after {
   left: 0;
   bottom: 0;
 }
 
-.section-6 .figure h3,
-.section-6 .figure p {
+.section-2 .figure h3,
+.section-2 .figure p {
   line-height: 1.5em;
 }
 
-.section-6 .figure h3 {
+.section-2 .figure h3 {
   margin: 0 0 5px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.section-6 .figure p {
+.section-2 .figure p {
   font-size: 0.8em;
   font-weight: 400;
   margin: 0 0 15px;
 }
 
-.section-6 .figure a {
+.section-2 .figure a {
   position: absolute;
   top: 0;
   right: 0;
@@ -168,10 +168,10 @@ section {
   z-index: 1;
 }
 
-.section-6 .figure:before,
-.section-6 .figure:after,
-.section-6 .figure figcaption:before,
-.section-6 .figure figcaption:after {
+.section-2 .figure:before,
+.section-2 .figure:after,
+.section-2 .figure figcaption:before,
+.section-2 .figure figcaption:after {
   position: absolute;
   content: '';
   background-color: #efefef;
@@ -181,52 +181,63 @@ section {
   opacity: 0.8;
 }
 
-.section-6 .figure:before,
-.section-6 .figure:after {
+.section-2 .figure:before,
+.section-2 .figure:after {
   height: 1px;
   width: 0%:
 }
 
-.section-6 .figure:before {
+.section-2 .figure:before {
   top: 0;
   left: 0;
 }
 
-.section-6 .figure:after {
+.section-2 .figure:after {
   bottom: 0;
   right: 0;
 }
 
-.section-6 .figure:hover img,
-.section-6 .figure.hover img {
+.section-2 .figure:hover img,
+.section-2 .figure.hover img {
   opacity: 0.4;
 }
 
-.section-6 .figure:hover figcaption:before,
-.section-6 .figure.hover figcaption:before,
-.section-6 .figure:hover figcaption:after,
-.section-6 .figure.hover figcaption:after {
+.section-2 .figure:hover figcaption:before,
+.section-2 .figure.hover figcaption:before,
+.section-2 .figure:hover figcaption:after,
+.section-2 .figure.hover figcaption:after {
   height: 100%;
 }
 
-.section-6 .figure:hover figcaption {
+.section-2 .figure:hover figcaption {
   opacity: 1;
 }
 
-.section-6 .figure:hover:before,
-.section-6 .figure.hover:before,
-.section-6 .figure:hover:after,
-.section-6 .figure.hover:after {
+.section-2 .figure:hover:before,
+.section-2 .figure.hover:before,
+.section-2 .figure:hover:after,
+.section-2 .figure.hover:after {
   width: 100%;
 }
 
-.section-6 .figure:hover:before,
-.section-6 .figure.hover:before,
-.section-6 .figure:hover:after,
-.section-6 .figure.hover:after,
-.section-6 .figure:hover figcaption:before,
-.section-6 .figure.hover figcaption:before,
-.section-6 .figure:hover figcaption:after,
-.section-6 .figure.hover figcaption:after {
+.section-2 .figure:hover:before,
+.section-2 .figure.hover:before,
+.section-2 .figure:hover:after,
+.section-2 .figure.hover:after,
+.section-2 .figure:hover figcaption:before,
+.section-2 .figure.hover figcaption:before,
+.section-2 .figure:hover figcaption:after,
+.section-2 .figure.hover figcaption:after {
   opacity: 0.1;
+}
+
+/* Footer */
+
+footer.footer {
+  text-align: center;
+  color: #efefef;
+  background: #1d1d1d;
+  font-size: 0.8em;
+  padding-bottom: 1.5em;
+  font-style: italic;
 }
